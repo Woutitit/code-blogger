@@ -1,16 +1,4 @@
 <?php 
-require_once('modules/devel/kint/kint/Kint.class.php');
-
-function onlinecookbook_theme_suggestions_form_element_alter(array &$suggestions, array $variables, $hook) {
-  // Check if Drupal can find the form id on this page and if so suggest this template for the form elements, labels and inputs?
-    
-}
-
-function onlinecookbook_preprocess_views_slideshow_controls_text_next(&$vars) {
-  
-
-}
-
 
 
 
