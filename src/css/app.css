@@ -1,2 +1,5 @@
+/* Base */
+@import url("./base/base.css");
+
 /* Components */
 @import url("./components/components.css");

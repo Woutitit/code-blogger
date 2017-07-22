@@ -445,7 +445,10 @@ template {
 [hidden] {
   display: none;
 }
-.card {
+/* Components */
+* {
+	box-sizing: border-box;
+}.card {
 	background-color: #fff;
 	border: 1px solid rgba(0,0,0,.125);
 	border-radius: .25rem;
@@ -457,6 +460,9 @@ template {
     border: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
+    width: initial !important;
 }/* Components */
 
-/* Components *//* Components */
+/* Components *//* Base */
+
+/* Components */
