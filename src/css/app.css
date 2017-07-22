@@ -3,3 +3,6 @@
 
 /* Components */
 @import url("./components/components.css");
+
+/* Layouts */
+@import url("./layouts/layouts.css");

@@ -463,6 +463,58 @@ template {
     width: initial !important;
 }/* Components */
 
-/* Components *//* Base */
+/* Components */.container {
+	margin: 0 auto;
+	padding: 0 16px;
+	max-width: 960px;
+}
+
+/* GRID */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row {
+    margin-right: -16px;
+    margin-left: -16px;
+}
+
+.col-md-2,
+.col-md-10 {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-md-2 {
+		flex: 0 0 16.666667%;
+	}
+
+	.col-md-4 {
+		flex: 0 0 33.333334%;
+		max-width: 33.333334%;
+	}
+
+	.col-md-10 {
+		flex: 0 0 83.333333%;
+	}
+
+	.col-md-offset-2 {
+		margin-left: 16.666667%;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-2,
+	.col-md-4,
+	.col-md-10 {
+		padding-right: 16px !important;
+		padding-left: 16px !important;
+	}
+}
+
+/* Base */
 
 /* Components */
+
+/* Layouts */
