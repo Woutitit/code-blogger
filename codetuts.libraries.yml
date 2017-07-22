@@ -1,0 +1,8 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      dist/app.css: {}
+global-js:
+  js:
+    dist/app.js: {}

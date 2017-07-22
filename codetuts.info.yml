@@ -5,9 +5,8 @@ description: 'A basic theme for anyone wanting to share their coding knowledge.'
 package: custom
 core: 8.x
 libraries:
-  - onlinecookbook/fonts
-  - onlinecookbook/global-styling
-  - onlinecookbook/global-js
+  - codetuts/global-styling
+  - codetuts/global-js
 regions:
   header: 'Header'
   content: 'Content'
