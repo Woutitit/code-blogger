@@ -1,0 +1,16 @@
+name: Codetuts
+type: theme
+base theme: classy
+description: 'A basic theme for anyone wanting to share their coding knowledge.'
+package: custom
+core: 8.x
+libraries:
+  - onlinecookbook/fonts
+  - onlinecookbook/global-styling
+  - onlinecookbook/global-js
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  highlighted: 'Highlighted'
+  page_title: 'Page title'
+  content: 'Content'
