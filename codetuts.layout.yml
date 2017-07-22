@@ -1,0 +1,12 @@
+cardtopimage:
+  label: Card top image
+  category: Codetuts
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  template: templates/ds/ds-card-top-image
+  regions:
+    first:
+      label: Image
+    second:
+      label: Content
+
