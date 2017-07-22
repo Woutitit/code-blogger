@@ -10,7 +10,4 @@ libraries:
   - onlinecookbook/global-js
 regions:
   header: 'Header'
-  primary_menu: 'Primary menu'
-  highlighted: 'Highlighted'
-  page_title: 'Page title'
   content: 'Content'
