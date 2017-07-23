@@ -9,4 +9,6 @@ cardtopimage:
       label: Image
     second:
       label: Content
+    third:
+      label: Footer
 
