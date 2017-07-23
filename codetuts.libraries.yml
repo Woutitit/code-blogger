@@ -9,4 +9,5 @@ global-js:
 fonts:
   css:
     theme:
-      '//fonts.googleapis.com/css?family=Merriweather:400,700': { type: external }
+      '//fonts.googleapis.com/css?family=Merriweather:300,400,700': { type: external }
+      '//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700': { type: external }
