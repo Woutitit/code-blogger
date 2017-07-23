@@ -6,3 +6,6 @@
 
 /* Layouts */
 @import url("./layouts/layouts.css");
+
+/* Utils */
+@import url("./utils/utils.css");
