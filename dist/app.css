@@ -487,13 +487,14 @@ p {
 	padding: .8rem 1.6rem;
 }/* Components */
 
-/* Components */.container {
+/* Components *//* Layout */
+.layout-content {
 	margin: 0 auto;
 	padding: 0 16px;
 	max-width: 960px;
 }
 
-/* GRID */
+/* Grid */
 .row {
 	display: flex;
 	flex-wrap: wrap;
