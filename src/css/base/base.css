@@ -14,6 +14,7 @@ body {
 h3 {
 	color: #000;
 	font-size: 2.1rem;
+	margin: 1em 0 0;
 }
 
 h3 > a {
@@ -21,6 +22,18 @@ h3 > a {
 	text-decoration: none;
 }
 
+h3:first-child {
+	margin-top: 0;
+}
+
 p {
 	line-height: 1.6;
+}
+
+a {
+	transition: .3s color;
+}
+
+a:hover {
+	color: #0a91bc;
 }

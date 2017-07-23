@@ -461,6 +461,7 @@ body {
 h3 {
 	color: #000;
 	font-size: 2.1rem;
+	margin: 1em 0 0;
 }
 
 h3 > a {
@@ -468,8 +469,20 @@ h3 > a {
 	text-decoration: none;
 }
 
+h3:first-child {
+	margin-top: 0;
+}
+
 p {
 	line-height: 1.6;
+}
+
+a {
+	transition: .3s color;
+}
+
+a:hover {
+	color: #0a91bc;
 }.card {
 	background-color: #fff;
 	border: 1px solid rgba(0,0,0,.125);
@@ -511,6 +524,8 @@ p {
 }
 
 .col-md-2,
+.col-md-4,
+.col-md-6,
 .col-md-10 {
 	width: 100%;
 }
@@ -525,6 +540,11 @@ p {
 		max-width: 33.333334%;
 	}
 
+	.col-md-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
 	.col-md-10 {
 		flex: 0 0 83.333333%;
 	}
@@ -537,6 +557,7 @@ p {
 @media (min-width: 992px) {
 	.col-md-2,
 	.col-md-4,
+	.col-md-6,
 	.col-md-10 {
 		padding-right: 16px !important;
 		padding-left: 16px !important;
