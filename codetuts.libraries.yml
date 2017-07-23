@@ -6,3 +6,7 @@ global-styling:
 global-js:
   js:
     dist/app.js: {}
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Zilla+Slab': { type: external }

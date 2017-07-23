@@ -5,6 +5,7 @@ description: 'A basic theme for anyone wanting to share their coding knowledge.'
 package: custom
 core: 8.x
 libraries:
+  - codetuts/fonts
   - codetuts/global-styling
   - codetuts/global-js
 regions:
