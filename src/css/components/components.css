@@ -1,5 +1,8 @@
-/* Components */
+/* Card */
 @import url("./card/card.css");
 
-/* Components */
+/* Masonry */
 @import url("./masonry/masonry.css");
+
+/* Page */
+@import url("./page/page.css");

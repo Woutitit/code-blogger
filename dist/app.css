@@ -459,6 +459,10 @@ body {
 }
 
 h3 {
+	font-family: "Merriweather", serif;
+}
+
+h3 {
 	color: #000;
 	font-size: 2.1rem;
 	margin: 1em 0 0;
@@ -474,7 +478,7 @@ h3:first-child {
 }
 
 p {
-	line-height: 1.6;
+	line-height: 1.75;
 }
 
 a {
@@ -503,9 +507,15 @@ a:hover {
 
 .card__footer {
 	padding: .8rem 1.6rem;
-}/* Components */
+}.masonry-layout .card {
+	margin-bottom: 1.6rem;
+}.page--front {
+	background-color: #f5f5f5;
+}/* Card */
 
-/* Components *//* Layout */
+/* Masonry */
+
+/* Page *//* Layout */
 .layout-content {
 	margin: 0 auto;
 	padding: 0 16px;
