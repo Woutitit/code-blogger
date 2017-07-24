@@ -494,6 +494,21 @@ a {
 
 a:hover {
 	color: #0a91bc;
+}.brand {
+	display: block;
+}
+
+.brand__site-name {
+	color: #000;
+	font-family: "Merriweather", serif;
+	font-size: 4.8rem;
+	font-weight: 700;
+}
+
+.brand__site-slogan {
+	color: #9B9B9B;
+	font-size: 1.2rem;
+	text-transform: uppercase;
 }.card {
 	background-color: #fff;
 	border: 1px solid rgba(0,0,0,.125);
@@ -532,7 +547,9 @@ a:hover {
 	margin-bottom: 1.6rem;
 }.page--front {
 	background-color: #f5f5f5;
-}/* Card */
+}/* Brand */
+
+/* Card */
 
 /* Masonry */
 
@@ -593,6 +610,10 @@ a:hover {
 		padding-right: 16px !important;
 		padding-left: 16px !important;
 	}
+}
+
+.u--textCenter {
+	text-align: center;
 }
 
 .u--textRight {

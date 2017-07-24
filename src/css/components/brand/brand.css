@@ -1,0 +1,16 @@
+.brand {
+	display: block;
+}
+
+.brand__site-name {
+	color: #000;
+	font-family: "Merriweather", serif;
+	font-size: 4.8rem;
+	font-weight: 700;
+}
+
+.brand__site-slogan {
+	color: #9B9B9B;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
