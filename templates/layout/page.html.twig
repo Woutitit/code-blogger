@@ -49,30 +49,23 @@
     {{ page.header }}
 
   {{ page.primary_menu }}
-  {{ page.secondary_menu }}
   </header>
 
-  {{ page.breadcrumb }}
-
-  {{ page.highlighted }}
-
-  {{ page.help }}
-
   <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+    <a id="main-content" tabindex="-1"></a>
 
-    <div class="layout-content">
+    <div class="layout-content {% if not is_front %}col-md-8{% endif %}">
       {{ page.content }}
     </div>{# /.layout-content #}
 
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
+    {% if page.sidebar_first and not is_front %}
+      <aside class="layout-sidebar-first {% if not is_front %}col-md-4{% endif %}" role="complementary">
         {{ page.sidebar_first }}
       </aside>
     {% endif %}
 
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
+    {% if page.sidebar_second and not is_front %}
+      <aside class="layout-sidebar-second {% if not is_front %}col-md-4{% endif %}" role="complementary">
         {{ page.sidebar_second }}
       </aside>
     {% endif %}
@@ -85,4 +78,4 @@
     </footer>
   {% endif %}
 
-</div>{# /.layout-container #}
+</div>
