@@ -11,5 +11,4 @@ libraries:
 regions:
   header: 'Header'
   content: 'Content'
-  sidebar_first: 'Left Sidebar'
-  sidebar_second: 'Right Sidebar'
+  sidebar_first: 'Right Sidebar'

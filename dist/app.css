@@ -563,7 +563,7 @@ a:hover {
 /* Masonry */
 
 /* Page *//* Layout */
-.layout-content {
+.layout-container {
 	margin: 0 auto;
 	padding: 0 16px;
 	max-width: 1170px;
@@ -583,6 +583,7 @@ a:hover {
 .col-md-2,
 .col-md-4,
 .col-md-6,
+.col-md-8,
 .col-md-10 {
 	width: 100%;
 }
@@ -600,6 +601,11 @@ a:hover {
 	.col-md-6 {
 		flex: 0 0 50%;
 		max-width: 50%;
+	}
+
+	.col-md-8 {
+		flex: 0 0 66.66666666666667%;
+		max-width: 66.66666666666667%;
 	}
 
 	.col-md-10 {
