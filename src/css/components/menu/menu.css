@@ -9,7 +9,7 @@
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    transition: color .3s;
+    transition: .3s;
 }
 
 .menu__item > a:hover {
@@ -17,8 +17,10 @@
 }
 
 .menu__item > a.is-active {
-    border-bottom: 3px solid #2bb2dd; 
-    color: #2bb2dd !important;
+    background-color: #2bb2dd !important;
+    border-bottom: 3px solid #2bb2dd;
+    border-radius: 2px;
+    color: #fff !important;
 }
 
 .menu--bar {
@@ -26,5 +28,5 @@
 }
 
 .menu--bar .menu__item > a {
-    padding: .4rem 1.6rem;
+    padding: .8rem 3.2rem;
 }

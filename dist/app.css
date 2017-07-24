@@ -534,7 +534,7 @@ input {
     font-weight: 700;
     line-height: 1.6;
     margin-bottom: 0;
-    padding: 1.2rem 4.8rem;
+    padding: .8rem 3.2rem;
     text-align: center;
     text-transform: uppercase;
     vertical-align: middle;
@@ -607,7 +607,7 @@ input {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    transition: color .3s;
+    transition: .3s;
 }
 
 .menu__item > a:hover {
@@ -615,8 +615,10 @@ input {
 }
 
 .menu__item > a.is-active {
-    border-bottom: 3px solid #2bb2dd; 
-    color: #2bb2dd !important;
+    background-color: #2bb2dd !important;
+    border-bottom: 3px solid #2bb2dd;
+    border-radius: 2px;
+    color: #fff !important;
 }
 
 .menu--bar {
@@ -624,7 +626,7 @@ input {
 }
 
 .menu--bar .menu__item > a {
-    padding: .4rem 1.6rem;
+    padding: .8rem 3.2rem;
 }.page--front {
 	background-color: #f5f5f5;
 }.page-title {
@@ -712,12 +714,22 @@ input {
 	}
 }
 
+.u--inlineBlock {
+	display: inline-block;
+}
+
 .u--textCenter {
 	text-align: center;
 }
 
 .u--textRight {
 	text-align: right;
+}
+
+/* SPACING */ 
+
+.u--pt-l {
+	padding-top: 3.2rem;
 }/* Base */
 
 /* Components */

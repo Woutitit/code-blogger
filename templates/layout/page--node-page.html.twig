@@ -49,18 +49,21 @@
       <header class="main-header">
         {{ page.header }}
 
-        {{ page.primary_menu }}
+        <div class="u--inlineBlock">
+          {{ page.primary_menu }}
+        </div>
       </header>
 
-      {% if page.page_title %}
+      <div class="u--pt-l">
+        {% if page.page_title %}
         <h1>{{ page.page_title }}</h1>
-      {% endif %}
+        {% endif %}
 
         <main class="layout-content" role="main">
         	<a id="main-content" tabindex="-1"></a>
           {{ page.content }}
         </main>{# /.layout-content #}
-   
+      </div>
 
       {% if page.footer %}
       <footer role="contentinfo">

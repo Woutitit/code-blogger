@@ -48,11 +48,12 @@
 
       <header class="main-header">
         {{ page.header }}
-
-        {{ page.primary_menu }}
+        <div class="u--inlineBlock">
+          {{ page.primary_menu }}
+        </div>
       </header>
 
-      <div class="{% if not is_front %}row{% endif %}">
+      <div class="u--pt-l{% if not is_front %} row{% endif %}">
         <a id="main-content" tabindex="-1"></a>
 
         <main class="layout-content {% if not is_front %}col-md-8{% endif %}" role="main">
