@@ -44,3 +44,7 @@ a {
 a:hover {
 	color: #0a91bc;
 }
+
+input {
+	font-family: "Open Sans", sans-serif;
+}
