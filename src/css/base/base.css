@@ -12,8 +12,15 @@ body {
 	color: #4A4A4A;
 }
 
+h1,
+h2,
 h3 {
 	font-family: "Merriweather", serif;
+}
+
+h1 {
+	font-size: 3rem;
+
 }
 
 h3 {

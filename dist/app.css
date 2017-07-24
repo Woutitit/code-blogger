@@ -463,8 +463,15 @@ body {
 	color: #4A4A4A;
 }
 
+h1,
+h2,
 h3 {
 	font-family: "Merriweather", serif;
+}
+
+h1 {
+	font-size: 3rem;
+
 }
 
 h3 {
@@ -591,6 +598,9 @@ input {
 	margin-bottom: 1.6rem;
 }.page--front {
 	background-color: #f5f5f5;
+}.page-title {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: .8rem;
 }/* Brand */
 
 /* Button */
@@ -603,7 +613,10 @@ input {
 
 /* Masonry */
 
-/* Page *//* Layout */
+/* Page */
+
+/* Page title */
+/* Layout */
 .layout-container {
 	margin: 0 auto;
 	padding: 0 16px;
