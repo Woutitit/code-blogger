@@ -547,6 +547,19 @@ a:hover {
     font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
+}.form__item {
+	margin-bottom: 1rem;
+}
+
+.form__label {
+	padding: .8rem 0;
+}
+
+.form__control {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: .8rem;
+	width: 100%;
 }.main-header {
 	padding-top: 3.2rem;
 	text-align: center;

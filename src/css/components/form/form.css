@@ -1,0 +1,14 @@
+.form__item {
+	margin-bottom: 1rem;
+}
+
+.form__label {
+	padding: .8rem 0;
+}
+
+.form__control {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: .8rem;
+	width: 100%;
+}
