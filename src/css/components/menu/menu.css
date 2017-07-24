@@ -1,0 +1,30 @@
+.menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu__item > a {
+    color: #4a4a4a;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .3s;
+}
+
+.menu__item > a:hover {
+    color: #2bb2dd;
+}
+
+.menu__item > a.is-active {
+    border-bottom: 3px solid #2bb2dd; 
+    color: #2bb2dd !important;
+}
+
+.menu--bar {
+    display: flex;
+}
+
+.menu--bar .menu__item > a {
+    padding: .4rem 1.6rem;
+}

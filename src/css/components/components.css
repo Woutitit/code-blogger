@@ -16,6 +16,9 @@
 /* Masonry */
 @import url("./masonry/masonry.css");
 
+/* Menu */
+@import url("./menu/menu.css");
+
 /* Page */
 @import url("./page/page.css");
 
