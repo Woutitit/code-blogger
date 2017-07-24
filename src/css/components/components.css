@@ -4,6 +4,9 @@
 /* Card */
 @import url("./card/card.css");
 
+/* Main header */
+@import url("./main-header/main-header.css");
+
 /* Masonry */
 @import url("./masonry/masonry.css");
 

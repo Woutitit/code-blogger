@@ -2,6 +2,10 @@
 	display: block;
 }
 
+.brand--main-header {
+	padding-bottom: 3.2rem;
+}
+
 .brand__site-name {
 	color: #000;
 	font-family: "Merriweather", serif;

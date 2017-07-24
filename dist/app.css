@@ -498,6 +498,10 @@ a:hover {
 	display: block;
 }
 
+.brand--main-header {
+	padding-bottom: 3.2rem;
+}
+
 .brand__site-name {
 	color: #000;
 	font-family: "Merriweather", serif;
@@ -543,6 +547,9 @@ a:hover {
     font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
+}.main-header {
+	padding-top: 3.2rem;
+	text-align: center;
 }.masonry-layout .card {
 	margin-bottom: 1.6rem;
 }.page--front {
@@ -550,6 +557,8 @@ a:hover {
 }/* Brand */
 
 /* Card */
+
+/* Main header */
 
 /* Masonry */
 
