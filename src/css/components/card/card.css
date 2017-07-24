@@ -12,6 +12,12 @@
 	height: auto;
 }
 
+/* TODO: Maybe better .masonry-layout .node__category to make it more general */
+.card__category {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .card__block {
 	padding: 1.6rem;
 }

@@ -487,6 +487,8 @@ p {
 }
 
 a {
+	color: #2bb2dd;
+	text-decoration: none;
 	transition: .3s color;
 }
 
@@ -504,6 +506,12 @@ a:hover {
 .card__image img {
 	max-width: 100%;
 	height: auto;
+}
+
+/* TODO: Maybe better .masonry-layout .node__category to make it more general */
+.card__category {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .card__block {
