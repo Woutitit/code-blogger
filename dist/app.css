@@ -502,7 +502,7 @@ a:hover {
 }
 
 .card__image img {
-	width: 276px;
+	max-width: 100%;
 	height: auto;
 }
 
