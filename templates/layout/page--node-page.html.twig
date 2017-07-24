@@ -52,6 +52,10 @@
         {{ page.primary_menu }}
       </header>
 
+      {% if page.page_title %}
+        {{ page.page_title }}
+      {% endif %}
+
         <main class="layout-content" role="main">
         	<a id="main-content" tabindex="-1"></a>
           {{ page.content }}
