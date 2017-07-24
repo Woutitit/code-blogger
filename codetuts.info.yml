@@ -10,5 +10,6 @@ libraries:
   - codetuts/global-js
 regions:
   header: 'Header'
+  primary_menu: 'Primary Menu'
   content: 'Content'
   sidebar_first: 'Right Sidebar'

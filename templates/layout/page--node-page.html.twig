@@ -52,19 +52,11 @@
         {{ page.primary_menu }}
       </header>
 
-      <div class="{% if not is_front %}row{% endif %}">
-        <a id="main-content" tabindex="-1"></a>
-
-        <main class="layout-content {% if not is_front %}col-md-8{% endif %}" role="main">
+        <main class="layout-content" role="main">
+        	<a id="main-content" tabindex="-1"></a>
           {{ page.content }}
         </main>{# /.layout-content #}
-
-        {% if page.sidebar_first and not is_front %}
-        <aside class="layout-sidebar-first {% if not is_front %}col-md-4{% endif %}" role="complementary">
-          {{ page.sidebar_first }}
-        </aside>
-        {% endif %}
-      </div>
+   
 
       {% if page.footer %}
       <footer role="contentinfo">
