@@ -54,17 +54,33 @@
       </header>
 
       <div class="u--pt-l{% if not is_front %} row{% endif %}">
-        <a id="main-content" tabindex="-1"></a>
-
-        <main class="layout-content {% if not is_front %}col-md-8{% endif %}" role="main">
-          {{ page.content }}
-        </main>{# /.layout-content #}
-
-        {% if page.sidebar_first and not is_front %}
+      {% if page.sidebar_first and not is_front %}
         <aside class="layout-sidebar-first {% if not is_front %}col-md-4{% endif %}" role="complementary">
           {{ page.sidebar_first }}
         </aside>
         {% endif %}
+
+        <a id="main-content" tabindex="-1"></a>
+
+        {%
+        set content_classes = [
+          page.sidebar_first and page.sidebar_second and not is_front ? 'col-sm-6',
+          page.sidebar_first and page.sidebar_second is empty and not is_front ? 'col-sm-9',
+          page.sidebar_second and page.sidebar_first is empty and not is_front ? 'col-sm-9',
+          page.sidebar_first is empty and page.sidebar_second is empty or is_front ? 'col-sm-12'
+        ]
+      %}
+
+        <main{{ content_attributes.addClass(content_classes)}} role="main">
+          {{ page.content }}
+        </main>{# /.layout-content #}
+
+        {% if page.sidebar_second and not is_front %}
+        <aside class="layout-sidebar-second {% if not is_front %}col-md-4{% endif %}" role="complementary">
+          {{ page.sidebar_second }}
+        </aside>
+        {% endif %}
+
       </div>
 
       {% if page.footer %}

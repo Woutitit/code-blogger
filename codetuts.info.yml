@@ -13,4 +13,5 @@ regions:
   primary_menu: 'Primary Menu'
   page_title: 'Page title'
   content: 'Content'
-  sidebar_first: 'Right Sidebar'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
