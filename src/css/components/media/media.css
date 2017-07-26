@@ -1,0 +1,7 @@
+.media {
+    display: flex;
+}
+
+.media__content {
+    margin-left: 1.6rem;
+}

@@ -616,6 +616,12 @@ img {
 	text-align: center;
 }.masonry-layout .card {
 	margin-bottom: 1.6rem;
+}.media {
+    display: flex;
+}
+
+.media__content {
+    margin-left: 1.6rem;
 }.menu {
     list-style: none;
     padding-left: 0;
@@ -665,6 +671,8 @@ img {
 /* Main header */
 
 /* Masonry */
+
+/* Media */
 
 /* Menu */
 
