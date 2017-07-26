@@ -490,7 +490,8 @@ h2 > a {
 	text-decoration: none;
 }
 
-h3:first-child {
+h2:first-child,
+h4:first-child {
 	margin-top: 0;
 }
 
@@ -688,6 +689,12 @@ img {
 	margin-left: -16px;
 }
 
+.col-6 {
+	flex: 0 0 50%;
+	max-width: 50%; 
+}
+
+.col-6,
 .col-sm-3,
 .col-sm-4,
 .col-sm-6,

@@ -16,6 +16,12 @@
 	margin-left: -16px;
 }
 
+.col-6 {
+	flex: 0 0 50%;
+	max-width: 50%; 
+}
+
+.col-6,
 .col-sm-3,
 .col-sm-4,
 .col-sm-6,
