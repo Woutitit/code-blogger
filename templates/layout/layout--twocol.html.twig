@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a two-column layout.
+ *
+ * Available variables:
+ * - content: The content for this layout.
+ * - attributes: HTML attributes for the layout <div>.
+ *
+ * @ingroup themeable
+ */
+#}
+{% if content %}
+  <div{{ attributes.addClass('row') }}>
+    {% if content.top %}
+      <div class="layout__region layout__region--top">
+        {{ content.top }}
+      </div>
+    {% endif %}
+
+    {% if content.first %}
+      <div class="col-sm-9">
+        {{ content.first }}
+      </div>
+    {% endif %}
+
+    {% if content.second %}
+      <div class="col-sm-3">
+        {{ content.second }}
+      </div>
+    {% endif %}
+
+    {% if content.bottom %}
+      <div class="layout__region layout__region--bottom">
+        {{ content.bottom }}
+      </div>
+    {% endif %}
+  </div>
+{% endif %}
