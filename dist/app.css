@@ -520,15 +520,15 @@ img {
 	height: auto;
 }.brand {
 	display: block;
+	line-height: 1.15;
 }
 
 .brand--main-header {
-	padding-bottom: 3.2rem;
 }
 
 .brand__site-name {
 	color: #000;
-	font-family: "Merriweather", serif;
+	font-family: "Oswald", serif;
 	font-size: 4.8rem;
 	font-weight: 700;
 }
