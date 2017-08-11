@@ -1,5 +1,10 @@
+.block {
+    background-color: #fff;
+    padding: 16px;
+}
+
 .block__title {
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #ddd;
     padding-bottom: .5em;
     text-transform: uppercase;
 }

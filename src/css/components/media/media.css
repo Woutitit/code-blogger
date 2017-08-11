@@ -1,7 +1,26 @@
 .media {
+	border-bottom: 1px solid #ddd;
     display: flex;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.media__title {
+	margin-bottom: 0;
+}
+
+.media__title > a {
+	color: #000;
 }
 
 .media__content {
-    margin-left: 1.6rem;
+    margin-left: .8rem;
+}
+
+.media__submitted-on {
+	color: #9B9B9B;
+	font-size: 1.1rem;
+	font-weight: 700;
+	padding-bottom: 1.6rem;
+	text-transform: uppercase;
 }
