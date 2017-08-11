@@ -568,9 +568,9 @@ img {
 	color: #fff;
 }.card {
 	background-color: #fff;
-	border: 1px solid rgba(0,0,0,.125);
 	border-radius: .25rem;
 	display: flex;
+	padding: 2rem;
 	flex-direction: column;
 	position: relative;
 }
@@ -608,8 +608,17 @@ img {
 	text-transform: uppercase;
 }
 
-.article--full .article__submitted-by {
-	padding-bottom: 1.6rem;
+.article--full .article__info {
+	display: flex;
+}
+
+.article--full .article__info > div {
+	color: #9B9B9B;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 2.0em;
+    padding-right: 1.6rem;
+    text-transform: uppercase;
 }.form__item {
 	margin-bottom: 1rem;
 }
@@ -651,7 +660,6 @@ img {
 	color: #9B9B9B;
 	font-size: 1.1rem;
 	font-weight: 700;
-	padding-bottom: 1.6rem;
 	text-transform: uppercase;
 }
 .menu {
