@@ -44,17 +44,17 @@
   */
   #}
   <div class="page {% if is_front %}page--front {% endif %}">
-    <div class="layout-container">
 
-      <header class="main-header">
+    <header class="main-header">
+      <div class="main-header__inner layout-container">
         {{ page.header }}
-        <div class="u--inlineBlock">
-          {{ page.primary_menu }}
-        </div>
-      </header>
+        {{ page.primary_menu }}
+      </div>
+    </header>
 
+    <div class="layout-container">
       <div class="u--pt-l{% if not is_front %} row{% endif %}">
-      {% if page.sidebar_first and not is_front %}
+        {% if page.sidebar_first and not is_front %}
         <aside class="layout-sidebar-first {% if not is_front %}col-sm-3{% endif %}" role="complementary">
           {{ page.sidebar_first }}
         </aside>
@@ -64,29 +64,29 @@
 
         {%
         set content_classes = [
-          page.sidebar_first and page.sidebar_second and not is_front ? 'col-sm-6',
-          page.sidebar_first and page.sidebar_second is empty and not is_front ? 'col-sm-9',
-          page.sidebar_second and page.sidebar_first is empty and not is_front ? 'col-sm-9',
-          page.sidebar_first is empty and page.sidebar_second is empty or is_front ? 'col-sm-12'
+        page.sidebar_first and page.sidebar_second and not is_front ? 'col-sm-6',
+        page.sidebar_first and page.sidebar_second is empty and not is_front ? 'col-sm-9',
+        page.sidebar_second and page.sidebar_first is empty and not is_front ? 'col-sm-9',
+        page.sidebar_first is empty and page.sidebar_second is empty or is_front ? 'col-sm-12'
         ]
-      %}
+        %}
 
         <main{{ content_attributes.addClass(content_classes)}} role="main">
-          {{ page.content }}
-        </main>{# /.layout-content #}
+        {{ page.content }}
+      </main>{# /.layout-content #}
 
-        {% if page.sidebar_second and not is_front %}
-        <aside class="layout-sidebar-second {% if not is_front %}col-sm-3{% endif %}" role="complementary">
-          {{ page.sidebar_second }}
-        </aside>
-        {% endif %}
-
-      </div>
-
-      {% if page.footer %}
-      <footer role="contentinfo">
-        {{ page.footer }}
-      </footer>
+      {% if page.sidebar_second and not is_front %}
+      <aside class="layout-sidebar-second {% if not is_front %}col-sm-3{% endif %}" role="complementary">
+        {{ page.sidebar_second }}
+      </aside>
       {% endif %}
+
     </div>
+
+    {% if page.footer %}
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
+    {% endif %}
   </div>
+</div>

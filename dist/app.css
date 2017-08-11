@@ -634,7 +634,11 @@ img {
 	width: 100%;
 }.main-header {
 	background-color: #fff;
+}
+
+.main-header__inner {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }.masonry-layout .card {
 	margin-bottom: 1.6rem;
