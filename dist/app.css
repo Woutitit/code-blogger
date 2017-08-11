@@ -471,7 +471,7 @@ h2 {
 h1,
 h2,
 h3 {
-	font-family: "Merriweather", serif;
+	font-family: "Oswald", serif;
 }
 
 h1 {
@@ -534,6 +534,10 @@ img {
 	color: #9B9B9B;
 	font-size: 1.2rem;
 	text-transform: uppercase;
+}.block__title {
+    border-bottom: 1px solid #DDD;
+    padding-bottom: .5em;
+    text-transform: uppercase;
 }.button {
     background-image: none;
     border: 1px solid #0b2de5;
@@ -658,6 +662,8 @@ img {
 	border-bottom: 1px solid #ddd;
 	padding-bottom: .8rem;
 }/* Brand */
+
+/* Block */
 
 /* Button */
 
