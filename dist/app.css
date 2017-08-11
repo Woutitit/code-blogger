@@ -633,6 +633,9 @@ img {
 	padding: .8rem;
 	width: 100%;
 }.main-header {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
 }.masonry-layout .card {
 	margin-bottom: 1.6rem;
 }.media {
