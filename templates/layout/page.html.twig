@@ -55,7 +55,7 @@
 
       <div class="u--pt-l{% if not is_front %} row{% endif %}">
       {% if page.sidebar_first and not is_front %}
-        <aside class="layout-sidebar-first {% if not is_front %}col-md-3{% endif %}" role="complementary">
+        <aside class="layout-sidebar-first {% if not is_front %}col-sm-3{% endif %}" role="complementary">
           {{ page.sidebar_first }}
         </aside>
         {% endif %}
@@ -76,7 +76,7 @@
         </main>{# /.layout-content #}
 
         {% if page.sidebar_second and not is_front %}
-        <aside class="layout-sidebar-second {% if not is_front %}col-md-3{% endif %}" role="complementary">
+        <aside class="layout-sidebar-second {% if not is_front %}col-sm-3{% endif %}" role="complementary">
           {{ page.sidebar_second }}
         </aside>
         {% endif %}
