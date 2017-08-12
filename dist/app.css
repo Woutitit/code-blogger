@@ -474,7 +474,8 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: "Oswald", serif;
+	font-family: "Bree Serif", serif;
+	font-weight: 400;
 }
 
 h1 {
@@ -540,7 +541,6 @@ img {
 }.block__title {
     border-bottom: 1px solid #ddd;
     padding-bottom: .5em;
-    text-transform: uppercase;
 }.button {
     background-image: none;
     border: 1px solid #0b2de5;
