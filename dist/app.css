@@ -547,24 +547,27 @@ img {
     padding-bottom: .5em;
 }.button {
     background-image: none;
-    border: 1px solid #0b2de5;
+    border: 1px solid #2bb2dd;
     border-radius: 4px;
     cursor: pointer;
 	display: inline-block;
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.6;
     margin-bottom: 0;
-    padding: .8rem 3.2rem;
+    padding: .8rem 1.6rem;
     text-align: center;
-    text-transform: uppercase;
+    transition: .3s;
     vertical-align: middle;
     white-space: nowrap;
 }
 
 .button--primary {
-    background-color: #0b2de5;
+    background-color: #2bb2dd;
 	color: #fff;
+}
+
+.button--primary:hover {
+    filter: brightness(85%);
 }.card {
 	background-color: #fff;
 	border-radius: .25rem;
