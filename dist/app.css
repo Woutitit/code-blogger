@@ -629,7 +629,7 @@ img {
 	padding: .8rem;
 	width: 100%;
 }.main-header {
-	background-color: #fff;
+	background-color: #222;
 }
 
 .main-header__inner {
@@ -669,11 +669,10 @@ img {
 }
 
 .menu__item > a {
-    color: #4a4a4a;
-    font-size: 1.4rem;
-    font-weight: 700;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.6rem;
     text-decoration: none;
-    text-transform: uppercase;
     transition: .3s;
 }
 
