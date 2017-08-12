@@ -615,11 +615,11 @@ img {
 	text-transform: uppercase;
 }
 
-.article--full .article__info {
+.article .article__info {
 	display: flex;
 }
 
-.article--full .article__info > div {
+.article .article__info > div {
 	color: #9B9B9B;
     font-size: 1.1rem;
     font-weight: 700;
