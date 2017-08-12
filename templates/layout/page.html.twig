@@ -73,6 +73,9 @@
 
         <main{{ content_attributes.addClass(content_classes)}} role="main">
         <div class="{% if not is_front %} card{% endif %}">
+          {% if page.page_title %}
+            {{ page.page_title }}
+          {% endif %}
           {{ page.content }}
         </div>
       </main>
