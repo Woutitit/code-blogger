@@ -20,6 +20,8 @@ masonry:
     theme:
       components/masonry/masonry.css: {}
   js:
+    components/masonry/masonry.pkgd.min.js: {}
     components/masonry/masonry.js: {}
   dependencies:
+    - core/drupal
     - core/jquery
