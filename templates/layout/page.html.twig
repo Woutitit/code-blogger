@@ -72,8 +72,10 @@
         %}
 
         <main{{ content_attributes.addClass(content_classes)}} role="main">
-        {{ page.content }}
-      </main>{# /.layout-content #}
+        <div class="{% if not is_front %} card{% endif %}">
+          {{ page.content }}
+        </div>
+      </main>
 
       {% if page.sidebar_second and not is_front %}
       <aside class="layout-sidebar-second {% if not is_front %}col-sm-3{% endif %}" role="complementary">
@@ -86,7 +88,7 @@
 
   {% if page.footer %}
   <footer class="main-footer" role="contentinfo">
-  <div class="main-footer__inner layout-container">
+    <div class="main-footer__inner layout-container">
       {{ page.footer }}
     </div>
   </footer>
