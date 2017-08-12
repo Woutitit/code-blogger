@@ -575,6 +575,10 @@ img {
 	position: relative;
 }
 
+.card--top-image {
+	padding: 0;
+}
+
 .card__image img {
 	max-width: 100%;
 	height: auto;
@@ -587,11 +591,11 @@ img {
 }
 
 .card__block {
-	padding: 1.6rem;
+	padding: 2rem;
 }
 
 .card__footer {
-	padding: 1.6rem;
+	padding: 2rem;
 }
 
 .card__date,
