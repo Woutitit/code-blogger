@@ -15,3 +15,4 @@ regions:
   content: 'Content'
   sidebar_first: 'Left Sidebar'
   sidebar_second: 'Right Sidebar'
+  footer: 'Footer'
