@@ -667,6 +667,31 @@ img {
     width: 32px;
     height: 32px;
     text-align: center;
+    transition: .3s;
+}
+
+.main-footer__social a:hover {
+	color: #fff;
+}
+
+.main-footer__social .twitter:hover a {
+    background: #00acee;
+    border: 1px solid #00acee;
+}
+
+.main-footer__social .google:hover a {
+    background: #dd4c39;
+    border: 1px solid #dd4c39;
+}
+
+.main-footer__social .facebook:hover a {
+    background: #3b5998;
+    border: 1px solid #3b5998;
+}
+
+.main-footer__social .linkedin:hover a {
+    background: #069;
+    border: 1px solid #069;
 }.main-header {
 	background-color: #222;
 }
