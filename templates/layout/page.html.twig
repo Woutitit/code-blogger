@@ -82,11 +82,13 @@
       {% endif %}
 
     </div>
-
-    {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-    {% endif %}
   </div>
+
+  {% if page.footer %}
+  <footer class="main-footer" role="contentinfo">
+  <div class="main-footer__inner layout-container">
+      {{ page.footer }}
+    </div>
+  </footer>
+  {% endif %}
 </div>

@@ -16,6 +16,9 @@
 /* Form */
 @import url("./form/form.css");
 
+/* Main footer */
+@import url("./main-footer/main-footer.css");
+
 /* Main header */
 @import url("./main-header/main-header.css");
 
