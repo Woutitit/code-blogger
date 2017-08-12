@@ -14,3 +14,8 @@ function codetuts_preprocess_block(&$variables) {
 		}
 	}
 }
+
+
+function codetuts_views_pre_render_front_page(ViewExecutable $view) {
+	var_dump("lol");
+}

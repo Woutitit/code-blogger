@@ -76,6 +76,7 @@
           {% if page.page_title %}
             {{ page.page_title }}
           {% endif %}
+          {{ is_front ? attach_library('codetuts/masonry') }}
           {{ page.content }}
         </div>
       </main>
@@ -97,3 +98,4 @@
   </footer>
   {% endif %}
 </div>
+
