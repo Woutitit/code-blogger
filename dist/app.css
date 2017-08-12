@@ -537,12 +537,7 @@ img {
 	color: #9B9B9B;
 	font-size: 1.2rem;
 	text-transform: uppercase;
-}.block {
-    background-color: #fff;
-    padding: 16px;
-}
-
-.block__title {
+}.block__title {
     border-bottom: 1px solid #ddd;
     padding-bottom: .5em;
     text-transform: uppercase;
@@ -570,6 +565,7 @@ img {
 	background-color: #fff;
 	border-radius: .25rem;
 	display: flex;
+	margin-bottom: 1.6rem;
 	padding: 2rem;
 	flex-direction: column;
 	position: relative;
