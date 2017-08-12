@@ -525,19 +525,18 @@ img {
 }
 
 .brand--main-header {
+	padding: 12px;
 }
 
 .brand__site-name {
-	color: #000;
-	font-family: "Oswald", serif;
-	font-size: 4.8rem;
+	color: #fff;
+	font-family: "Open Sans", serif;
+	font-size: 3rem;
 	font-weight: 700;
 }
 
 .brand__site-slogan {
 	color: #9B9B9B;
-	font-size: 1.2rem;
-	text-transform: uppercase;
 }.block__title {
     border-bottom: 1px solid #ddd;
     padding-bottom: .5em;
